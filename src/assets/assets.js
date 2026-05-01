@@ -40,6 +40,8 @@ import car_image1 from "./car_image1.png"
 import car_image2 from "./car_image2.png"
 import car_image3 from "./car_image3.png"
 import car_image4 from "./car_image4.png"
+import car_image5 from "./car_image5.jpg"
+import car_image6 from "./car_image6.jpg"
 
 export const cityList = ['New York', 'Los Angeles', 'Houston', 'Chicago']
 
@@ -85,7 +87,9 @@ export const assets = {
     user_profile,
     car_image2,
     car_image3,
-    car_image4
+    car_image4,
+    car_image5,
+    car_image6
 }
 
 export const menuLinks = [
@@ -167,6 +171,40 @@ export const dummyCarData = [
         "brand": "Ford",
         "model": "Neo 6",
         "image": car_image4,
+        "year": 2022,
+        "category": "Sedan",
+        "seating_capacity": 2,
+        "fuel_type": "Diesel",
+        "transmission": "Semi-Automatic",
+        "pricePerDay": 209,
+        "location": "Houston",
+        "description": "This is a mid-size luxury sedan produced by Toyota. The Corolla made its debut in 2008 as the first sedan ever produced by Toyota.",
+        "isAvaliable": true,
+        "createdAt": "2025-04-17T06:15:47.318Z",
+    },
+    {
+        "_id": "68009c93a3f5fc6338ea7e34",
+        "owner": "67fe3467ed8a8fe17d0ba6e2",
+        "brand": "Ford",
+        "model": "Neo 6",
+        "image": car_image5,
+        "year": 2022,
+        "category": "Sedan",
+        "seating_capacity": 2,
+        "fuel_type": "Diesel",
+        "transmission": "Semi-Automatic",
+        "pricePerDay": 209,
+        "location": "Houston",
+        "description": "This is a mid-size luxury sedan produced by Toyota. The Corolla made its debut in 2008 as the first sedan ever produced by Toyota.",
+        "isAvaliable": true,
+        "createdAt": "2025-04-17T06:15:47.318Z",
+    },
+    {
+        "_id": "68009c93a3f5fc6338ea7e34",
+        "owner": "67fe3467ed8a8fe17d0ba6e2",
+        "brand": "Ford",
+        "model": "Neo 6",
+        "image": car_image6,
         "year": 2022,
         "category": "Sedan",
         "seating_capacity": 2,
